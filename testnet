@@ -6,6 +6,7 @@
         # check if the event is the X button 
         if event.type==pygame.QUIT:
             # if it is quit the game
+
             pygame.quit() 
             exit(0)
         if event.type == pygame.KEYDOWN:
