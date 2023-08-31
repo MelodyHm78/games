@@ -1,12 +1,11 @@
 
-    # 7 - update the screen
+    # 1- update the screen
     pygame.display.flip()
     # 8 - loop through the events
     for event in pygame.event.get():
         # check if the event is the X button 
         if event.type==pygame.QUIT:
             # if it is quit the game
-
             pygame.quit() 
             exit(0)
         if event.type == pygame.KEYDOWN:
